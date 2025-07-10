@@ -1,0 +1,20 @@
+*{
+    margin-left: 5px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li :hover{
+    background-color: blueviolet;
+}
+#mainHeader{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
