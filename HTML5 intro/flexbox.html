@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container div{
+            border: 1px solid black;
+            height: 40px;
+            width: 40px;
+            font-size: 2em;
+        }
+        .box{
+            font-size: 3em;
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgba(26, 63, 110, 0.568);
+        }
+        .box-container{
+            display: flex;
+            gap: 30px;
+        }
+        .user{
+            border: 2px solid rgba(26, 63, 110, 0.568);
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            font-size: 2em;
+        }
+        .user-container{
+             display: flex; /*ekline e anar jonno */
+            justify-content: space-between;/* center,end,left,right,space-arround,space-evenly */
+        }
+        .card-container{
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap; /* eta na dile ekline ei shobgulo div ke atanor jonno chapa kore felbe div ke. Ar use korle jototulu jayga ekekta div er dorkar tai dibe baki div gulo nicher line e chole jabe */
+            gap: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="user-container">
+        <!--.user{user_$}*3-->
+        <div class="user">user_1</div>
+        <div class="user">user_2</div>
+        <div class="user">user_3</div>
+    </div>
+    <div class="card-container">
+            <div class="user">user_1</div>
+            <div class="user">user_2</div>
+            <div class="user">user_3</div>
+            <div class="user">user_4</div>
+            <div class="user">user_5</div>
+            <div class="user">user_6</div>
+            <div class="user">user_7</div>
+            <div class="user">user_8</div>
+            <div class="user">user_9</div>
+            <div class="user">user_10</div>
+            <div class="user">user_11</div>
+            <div class="user">user_12</div>
+            <div class="user">user_6</div>
+            <div class="user">user_7</div>
+            <div class="user">user_8</div>
+            <div class="user">user_9</div>
+            <div class="user">user_10</div>
+            <div class="user">user_11</div>
+            <div class="user">user_12</div>
+    </div>
+</body>
+</html>

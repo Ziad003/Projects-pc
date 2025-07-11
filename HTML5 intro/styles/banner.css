@@ -1,0 +1,29 @@
+
+body{
+    max-width: 1270px;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+.hero-container{
+    display: flex;
+    gap: 40px;
+    border-radius: 20px;
+    align-items: flex-start;
+    background-color: rgba(10, 167, 101, 0.521);
+    padding: 20px;
+    font-size: 1.25em;
+}
+.hero-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.hero-container button{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 5px 7px;
+    cursor: pointer;
+    /* cursor: progress; */
+}
